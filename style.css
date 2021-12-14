@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,74 @@ body {
 }
 
 /* Add styles here! */
+/*
+### Spacing
+    This app uses an 8px unit. All spaces are a multiple of 8px:
+- `8px`
+- `16px`
+- `24px`
+- `32px`
+- `48px`
+- `64px`
+- `96px`
+- `128px`
+### Font
+- `1rem`
+- `1.25rem`
+- `1.5rem`
+- `2rem`
+### Color palette
+  Primary (green):
+- `hsl(160deg, 100%, 30%)`
+  Secondary (gold):
+- `hsl(45deg, 100%, 50%)` (lighter)
+- `hsl(45deg, 100%, 40%)` (darker)
+Grays:
+- `hsl(0deg, 0%, 0%)` (black)
+- `hsl(0deg, 0%, 10%)` (very dark)
+- `hsl(0deg, 0%, 30%)` (dark)
+- `hsl(0deg, 0%, 40%)` (medium)
+- `hsl(0deg, 0%, 60%)` (light)
+- `hsl(0deg, 0%, 100%)` (white)
+*/
+
+.intro-chunk {
+  margin: 48px 0;
+  padding: 8px 24px;
+}
+.intro-chunk .title {
+  margin-bottom: 48px;
+}
+.intro-chunk p {
+  width: 275px;
+  max-width: 100%;
+}
+
+header strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 6px solid hsl(0deg, 0%, 40%);
+  padding: 64px;
+}
+
+.indented-heading {
+  padding: 24px 40px;
+  margin: 0 0 0 -40px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 6px solid hsl(45deg, 100%, 40%);
+  width: fit-content;
+}
+
+.max-width-wrapper {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 8px 24px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 6px solid hsl(0deg, 0%, 40%);
+}
